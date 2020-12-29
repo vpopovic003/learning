@@ -22,7 +22,7 @@ int main()
     //broj pokusaja 5, for loop
     for (tryCount = 5; tryCount >= 1;) //na test se mora staviti >, sa < ne radi..?
     {
-        //the last expression checks if it TRY if TRIES (*tip from Udemy)
+        //the last expression (ternary operator) checks if it TRY if TRIES (*tip from Udemy)
         printf("You have %d tr%s left.\n", tryCount, tryCount == 1 ? "y" : "ies");
         printf("Enter your guess: ");
         scanf("%d", &guess);
@@ -50,7 +50,7 @@ int main()
                 printf("\nConratulations, %d is correct! You won.\n\n", guess);
                 break;
             }
-
+            
         }
         else
             printf("\nWrong input. Please enter a number between 1 and 20.\n\n");
