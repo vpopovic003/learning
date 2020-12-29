@@ -58,7 +58,7 @@ int main()
         //poslednji uslov koji proverava. ako se ne stavi if
         // izvrsava ga svaki put za for loop. moze da se stavi i izvan for loopa
         // pre return 0. sve jedno je.
-//jos jedan pokusaj
+//jos jedan pokusaj - dodatak na PCu
 
     }
 
