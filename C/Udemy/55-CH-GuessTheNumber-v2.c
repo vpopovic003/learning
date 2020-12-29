@@ -1,5 +1,7 @@
 //BOLJA VERZIJA
 //JEDINI PROBLEM JE UNOS SIMBOLA KOJI NIJE INT
+//BUG: Na poslednji pokusaj pogodjen izbacuje poruku za lost. Srediti.
+//Testiraj samo sa 1 kao zadatim brojem
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -50,7 +52,7 @@ int main()
                 printf("\nConratulations, %d is correct! You won.\n\n", guess);
                 break;
             }
-            
+
         }
         else
             printf("\nWrong input. Please enter a number between 1 and 20.\n\n");
