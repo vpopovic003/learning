@@ -1,7 +1,5 @@
 //BOLJA VERZIJA
 //JEDINI PROBLEM JE UNOS SIMBOLA KOJI NIJE INT
-//BUG: Na poslednji pokusaj pogodjen izbacuje poruku za lost. Srediti.
-//Testiraj samo sa 1 kao zadatim brojem
 
 #include <stdio.h>
 #include <stdlib.h>
