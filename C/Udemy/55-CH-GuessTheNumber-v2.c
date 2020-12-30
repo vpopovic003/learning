@@ -12,7 +12,6 @@ int main()
     srand ((unsigned)time(&t));
     int randomNumber = rand() % 21;
 
-
     printf("This is a guessing game.\n");
     printf("You have to guess a random number between 1 and 20\n");
     printf("\n");
@@ -32,10 +31,6 @@ int main()
         //treba mu uslov da li je input == int.
         if (guess >= 1 && guess <= 20)
         {
-            //prvo provera da li ima jos pokusaja
-            //ako nema nista ispod ne ide
-
-
             if (guess < randomNumber){
                 printf("\nSorry, %d is wrong. My number is larger then that.\n", guess);
                 tryCount--;
@@ -48,6 +43,8 @@ int main()
                 printf("\nConratulations, %d is correct! You won.\n\n", guess);
                 break;
             }
+            //provera da li ima jos pokusaja
+            //ako nema nista ispod ne ide
             if (tryCount == 0){
                 printf("\nSorry, you ran out of tries.\n");
                 printf("The number was %d.\n\n", randomNumber);
@@ -56,12 +53,6 @@ int main()
         }
         else
             printf("\nWrong input. Please enter a number between 1 and 20.\n\n");
-
-        //poslednji uslov koji proverava. ako se ne stavi if
-        // izvrsava ga svaki put za for loop. moze da se stavi i izvan for loopa
-        // pre return 0. sve jedno je.
-//jos jedan pokusaj - dodatak na PCu
-
     }
 
 return 0;
