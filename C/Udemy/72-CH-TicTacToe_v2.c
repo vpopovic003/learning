@@ -136,7 +136,7 @@ int checkForWin(char tablaf[])
     int winner = 0;
 //Player1
 //vodoravno
-    if (tablaf[0] ==  tablaf[1] && tablaf[2] == tablaf[3])
+    if (tablaf[0] ==  tablaf[1] && tablaf[1] == tablaf[2])
         winner = 1;
     else if (tablaf[3] ==  tablaf[4] && tablaf[4] == tablaf[5])
         winner = 1;
