@@ -1,0 +1,68 @@
+pop up screen ocasional click X
+put it over and there
+
+
+//*[@id="button"]
+
+
+Finished Processing
+
+//*[@id="dialog"]/div[1]/div/ytcp-icon-button/iron-icon
+/html/body/ytcp-video-share-dialog/ytcp-dialog/paper-dialog/div[1]/div/ytcp-icon-button/iron-icon
+
+Video Processing
+
+//*[@id="close-button"]/div
+
+
+red
+
+sam klikni na upload/create
+
+select files:
+//*[@id="select-files-button"]/div  no
+/html/body/ytcp-uploads-dialog/paper-dialog/div/ytcp-uploads-file-picker/div/ytcp-button/div   ok
+
+
+enter keys in windows
+
+
+enter title in box: (pise vec od fajla, ali nema crte - treba videti sa imenom fajla)
+id = textbox   (isti je za description ali probati)
+//*[@id="textbox"]
+/html/body/ytcp-uploads-dialog/paper-dialog/div/ytcp-animatable[1]/ytcp-uploads-details/div/ytcp-uploads-basics/ytcp-mention-textbox[1]/ytcp-form-input-container/div[1]/div[2]/ytcp-mention-input/div
+
+
+playlist... ?
+
+
+Made for Kids?
+//*[@id="radioLabel"]
+/html/body/ytcp-uploads-dialog/paper-dialog/div/ytcp-animatable[1]/ytcp-uploads-details/div/ytcp-uploads-basics/ytcp-form-audience/ytcp-audience-picker/div[4]/paper-radio-group/paper-radio-button[2]/div[2]
+
+
+NEXT:
+//*[@id="next-button"]/div
+/html/body/ytcp-uploads-dialog/paper-dialog/div/ytcp-animatable[2]/div/div[2]/ytcp-button[2]/div
+
+NEXT:
+
+UNLISTED BUTON:
+//*[@id="radioLabel"]
+/html/body/ytcp-uploads-dialog/paper-dialog/div/ytcp-animatable[1]/ytcp-uploads-review/div[2]/div[1]/ytcp-video-visibility-select/div[1]/paper-radio-group/paper-radio-button[2]/div[2]
+
+
+SAVE BUTTON:
+//*[@id="done-button"]/div
+/html/body/ytcp-uploads-dialog/paper-dialog/div/ytcp-animatable[2]/div/div[2]/ytcp-button[3]/div
+
+Tu izlazi dijalog - video published
+
+
+CREATE BUTTON:
+//*[@id="create-icon"]
+/html/body/ytcp-app/ytcp-entity-page/div/ytcp-header/header/div/ytcp-button
+
+Upload videos button:
+//*[@id="text-item-0"]/ytcp-ve/div/div/yt-formatted-string
+/html/body/ytcp-app/ytcp-entity-page/div/ytcp-header/header/div/ytcp-text-menu/paper-dialog/paper-listbox/paper-item[1]/ytcp-ve/div/div/yt-formatted-string
