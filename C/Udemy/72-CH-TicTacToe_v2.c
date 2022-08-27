@@ -161,5 +161,4 @@ int checkForWin(char tablaf[])
         winner = 2;
 
     return winner;
-
 }

@@ -1,19 +1,28 @@
-
 #include <stdio.h>
 
-int main(){
-    int primes[100] = {1, 2};
 
-    int i = 3;
-    for (i = 3; i <= 100; i++){
+int main()
+{    
+    int primes[100] = {2, 3};
 
-        int x = 0;
-        for (x = 0; x <= i; x ++){
-            if (i % primes[x] = 0)
-                
+    for (int p = 5, index = 2; p <= 100; p += 2, index++)
+    {
+        for (int i = 1; i < index; i++)
+        {
+            if (p % primes[i] == 0)
+            {
+                index--;
+                break;
+            }
+            
+            primes[index] = p;
         }
-        printf("\n%d\n", primes[x]);
     }
-
+    
+    for (int i = 0; i <= 100; i++)
+    {
+        printf("%d\n\n", primes[i]);
+    }
+    
     return 0;
 }
